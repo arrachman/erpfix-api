@@ -13,7 +13,7 @@ class BankController extends Controller
     public $primaryKey = 'bkode';
 
     // parameter for select data
-    public $select = 'bkode, bnama, balamat, bkota,  bnotelp, bnofax, bcatatan, baktif, binputuser, binputtgl, bmodifikasiuser, bmodifikasitgl';
+    public $select = 'bkode, bnama, balamat, bkota, bnotelp, bnofax, bcatatan, baktif, binputuser, binputtgl, bmodifikasiuser, bmodifikasitgl';
     public $selectFormatDate = 'binputtgl, bmodifikasitgl, bcustomdate1, bcustomdate2, bcustomdate3';
 
     // Parameter for post data
