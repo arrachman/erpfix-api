@@ -1,0 +1,4 @@
+https://subashbasnet.com.np/how-to-run-and-monitor-laravel-queue-using-pm2/
+pm2 start laravel-queue-worker.yml
+
+pm2 start artisan --name erpfix-api --interpreter php -- queue:work --daemon
